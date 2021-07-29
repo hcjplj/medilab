@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Noto Sans KR' rel='stylesheet'>
+<link rel="stylesheet" href="./w3.css">
+
+</head>
+<body>
+
+
+<!-- 네비게이션 -->
+<div class="topnav" id="myTopnav">
+  <a href="#news">보건의료정보 연구소</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">알림마당</button>
+    <div class="dropdown-content">
+      <a href="#">공지사항</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">주요사업</button>
+    <div class="dropdown-content">
+      <a href="#">사업현황</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+
+
+  <div class="dropdown">
+    <button class="dropbtn">정보마당</button>
+    <div class="dropdown-content">
+      <a href="#">공지사항</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+
+
+  <div class="dropdown">
+    <button class="dropbtn">학술연구</button>
+    <div class="dropdown-content">
+      <a href="#">공지사항</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">교육자료</button>
+    <div class="dropdown-content">
+      <a href="#">공지사항</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">소개마당</button>
+    <div class="dropdown-content">
+      <a href="#">공지사항</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+<!-- 헤더 -->
+<header class="container">
+    <img src="./images/dna-e1.jpg" >
+    <div class="content">
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+      </div>
+</header>
+
+  <!-- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="padding-left:16px">
+  <h2>Responsive Topnav with Dropdown</h2>
+  <p>Resize the browser window to see how it works.</p>
+  <p>Hover over the dropdown button to open the dropdown menu.</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+
+<div class="footer">
+    <p>보건의료정보연구소<br/>주소 : 인천시 미추홀구 제일로 31 삼라마이다스 1009호<br/>전화번호 : 010-459-5837</p>
+</div>
+
+</body>
+</html>
